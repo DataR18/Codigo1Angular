@@ -1,0 +1,28 @@
+
+<div class="container">
+    <div class="card" style="width: 18rem;">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">nombre</th>
+            <th scope="col">apellido</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let per of personas">
+            <th scope="row">{{per.id}}</th>
+            <td>{{per.nombre}}</td>
+            <td>{{per.apellido}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+<!--<p *ngIf="IsUsuario">Información sensible</p>-->
+<!--<p *ngIf= "!IsUsuario">Información pública</p>-->
+
+<!--<div *ngFor="let per of personas">
+    <p>{{per.nombre}}</p>
+
+</div>-->
+</div>

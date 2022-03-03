@@ -1,0 +1,16 @@
+<div class="container my-4">
+    <form #formUsuario=""ngForm>
+        <div class="mb-2">
+        <p>Nombre</p>
+        <input type="text" class="form-control" name="Nombre" [{ngModel}]="Usuaio.nombre" required placeholder="Nombre" aria-label="Username" aria-describedby="basic-addon1" />
+        </div>
+        <div class="mb-2">
+        <p>Apellido</p>
+        <input type="text" class="form-control" placeholder="Apellido" aria-label="Username" aria-describedby="basic-addon1" />
+        </div>
+        <div class="mb-2">
+        <p>Edad</p>
+        <input type="text" class="form-control" placeholder="Edad" aria-label="Username" aria-describedby="basic-addon1" />
+        </div>
+    </form>
+</div>
